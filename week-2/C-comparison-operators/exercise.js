@@ -4,17 +4,16 @@
   Using comparison operators complete the unfinished statements.
   The variables should have values that match the expected results.
 */
-
 var studentCount = 16;
 var mentorCount = 9;
-var moreStudentsThanMentors = true;
+var moreStudentsThanMentors = studentCount > mentorCount;
 
 var roomMaxCapacity = 25;
-var enoughSpaceInRoom = true;
+var enoughSpaceInRoom = studentCount + mentorCount >= 25;
 
 var personA = "Daniel";
 var personB = "Irina";
-var sameName = false;
+var sameName = personA === personB;
 
 /* 
   DO NOT EDIT BELOW THIS LINE
