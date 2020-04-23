@@ -1,5 +1,5 @@
-var message = "This is a string"; // Start by creating a variable `message`
-console.log(message);
+var message = "This is a string";
+var messageType = typeof message;
 
-var message = "string";
 console.log(message);
+console.log(messageType);

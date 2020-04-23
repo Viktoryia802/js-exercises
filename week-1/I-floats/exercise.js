@@ -1,9 +1,9 @@
 var numberOfStudents = 15;
 var numberOfMentors = 8;
-var percent = (numberOfStudents * 100) / 23;
-var percent = (numberOfMentors * 100) / 23;
+var sum = numberOfStudents + numberOfMentors;
 
-var message = "Percentage students: " + percent;
-var message = "Percentage mentors: " + percent;
+var percentofStudents = Math.round((numberOfStudents * 100) / sum);
+var percentofMentors = Math.round((numberOfMentors * 100) / sum);
 
-console.log(message);
+console.log("Percentage students: " + percentofStudents + "%");
+console.log("Percentage mentors: " + percentofMentors + "%");

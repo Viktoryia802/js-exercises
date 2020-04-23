@@ -1,6 +1,6 @@
 // Declare your function here
-function createLongGreeting() {
-  return "Hello, my name is Daniel and I'm 30 years old";
+function createLongGreeting(name, age) {
+  return "Hello, my name is " + name + " and i'm " + age + " years old";
 }
 
 const greeting = createLongGreeting("Daniel", 30);
